@@ -1,0 +1,97 @@
+body{
+	-webkit-transition: background-color 200ms;
+	-moz-transition: background-color 200ms
+}
+
+
+
+.left{
+background-color: #642D2C
+}
+.center{
+	background-color: #382D2C;
+}
+.rigth{
+	background-color: #382D4A
+}
+
+#OverAll{
+	/* background-color: black; */
+	text-align: center;
+
+
+}
+
+#wrapper{
+	display: -webkit-box;
+	display: -moz-box;
+	/*display: box;*/
+	-webkit-box-orient: vertical;
+	-moz-box-orient: vertical;
+	max-width: 900px;
+	margin: 0 auto;
+	/* background-color: white; */
+	-webkit-box-pack: center;
+	-moz-box-pack: center;
+}
+
+.row{
+	/* border: 2px solid black; */
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: -webkit-box;
+	display: -moz-box;
+	-webkit-box-orient: horizontal;
+	-moz-box-orient: horizontal;
+	-webkit-box-pack: center;
+	-moz-box-pack: center;
+	min-height: 30px;
+}
+
+.ClickBox{
+	margin: 5px 5px 5px 5px;
+	-webkit-box-flex: 1;
+	-moz-box-flex:1;
+	/*box-flex: 1;*/
+	height: 20px;
+	-webkit-transition: background-color 200ms, height 100ms;
+	-moz-transition: background-color 200ms, height 100ms;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	/*-webkit-animation-name: whitePulse;
+	-webkit-animation-duration: 1.5s;
+	-webkit-animation-iteration-count: 0; */
+}
+
+.InactiveButton{
+	background-color: #778899;
+}
+
+.ActiveButton{
+	background-color: #F3F3F3;
+}
+
+
+@-webkit-keyframes whitePulse {
+from { background-color: #F3F3F3; -webkit-box-shadow: 0 0 9px #333; height: 20px;}
+50% { background-color: #FFFFFF; -webkit-box-shadow: 0 0 18px #FFFFFF; height: 30px;}
+to { background-color: #F3F3F3; -webkit-box-shadow: 0 0 9px #333; height: 20px;}
+}
+
+@-moz-keyframes whitePulse {
+from { background-color: #F3F3F3; -webkit-box-shadow: 0 0 9px #333; height: 20px;}
+50% { background-color: #FFFFFF; -webkit-box-shadow: 0 0 18px #FFFFFF; height: 30px;}
+to { background-color: #F3F3F3; -webkit-box-shadow: 0 0 9px #333; height: 20px;}
+}
+
+.Sounding{
+	-webkit-animation-name: whitePulse;
+	-webkit-animation-duration: 1.5s;
+	-webkit-animation-iteration-count: 1; 
+	-moz-animation-name: whitePulse;
+	-moz-animation-duration: 1.5s;
+	-moz-animation-iteration-count: 1; 
+}
+
+
+
