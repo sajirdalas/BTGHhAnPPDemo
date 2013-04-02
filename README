@@ -1,0 +1,3 @@
+ Inspired by the popular tonematrix flash game, this experiment is meant to prove the same basic functionality can be achieved using only html5, css3 and javascript. The end product is targeted as a Firefox OS packed app.
+
+The demo is working on webkit based browsers, with Mozilla compatibility in the works.
